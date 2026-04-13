@@ -7,9 +7,9 @@ cask "ornata" do
     folder_arch = "x86_64"
   end
 
-  version "0.2.3-1"
-  sha256 arm:   "193cd96ae4cbdca696811da8c7c98a862d78bfc7ab7b38ffa050db7c92558c10",
-         intel: "3c77ddcdb49f781a95f93f3123c0bf0d9b7582f7b724bf73267f258bf6435850"
+  version "0.2.3"
+  sha256 arm:   "d1659a4ffe25776d3ce039070ad70cf53934796167d8cf50c51dae3d905dbdcf",
+         intel: "3d3606743ba750ebcaf6d62879918ccdb12a2e3f31e1a132bc9a3c7ef1781fea"
 
   url "https://github.com/08820048/Ornata/releases/download/v#{version}/Ornata_#{version}_#{dmg_arch}.dmg",
       verified: "github.com/08820048/Ornata/releases/download/"
